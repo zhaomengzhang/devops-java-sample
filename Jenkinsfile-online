@@ -10,10 +10,10 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'aliyun-image-hub'
+        DOCKER_CREDENTIAL_ID = 'docker-hub'
         GITHUB_CREDENTIAL_ID = 'github'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'registry.cn-beijing.aliyuncs.com'
+        REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'nwportal'
         GITHUB_ACCOUNT = 'zhaomengzhang@gmail.com'
         APP_NAME = 'devops-java-sample'
